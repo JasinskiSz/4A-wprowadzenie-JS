@@ -91,3 +91,23 @@ if (wiekMarcina === 33) {
 
 // github.com/JasinskiSz/4A-wprowadzenie-JS
 
+// funkcje
+function dodaj5(a) {
+    return a + 5
+}
+
+function dodajDwieLiczby(a, b) {
+    return a + b
+}
+
+const wynikDodawania5 = dodaj5(10)
+console.log(wynikDodawania5)
+
+const wynikDodawania = dodajDwieLiczby(12, 38)
+console.log(wynikDodawania)
+
+const wpisanePrzezUsera = prompt("Podaj liczbę")
+
+console.log("Wpisałeś do konsoli")
+
+console.log(wpisanePrzezUsera)
