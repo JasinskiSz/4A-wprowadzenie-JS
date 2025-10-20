@@ -79,11 +79,15 @@ liczba += x;
 
 console.log(liczba)
 
-let wiekMarcina = 28
+let wiekMarcina = 34
 
-if (wiekMarcina === 30) {
-    console.log("Marcin ma 30 lat")
+if (wiekMarcina === 33) {
+    console.log("Marcin ma 33 lata jak Jezus")
+} else if (wiekMarcina > 30) {
+    console.log("Marcin ma więcej 30 lat")
 } else {
-    console.log("Marcin nie ma 30 lat")
+    console.log("Marcin nie ma 30 ani 28 lat")
 }
+
+// github.com/JasinskiSz/4A-wprowadzenie-JS
 
